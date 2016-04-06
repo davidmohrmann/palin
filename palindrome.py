@@ -13,11 +13,6 @@ def is_palindrome(user_palindrome_input):
     else:
         return False
 
-
-
-
-
-
 def main():
     user_palindrome_input = input("Hello, please give me a word, sentence or group of sentences and I can tell you if it is a palindrome or not. It must be longer than (2) characters. ")
 
@@ -27,8 +22,6 @@ def main():
 
     else:
         print("Sorry, that isn't a palindrome.")
-
-
 
 if __name__ == '__main__':
     main()
